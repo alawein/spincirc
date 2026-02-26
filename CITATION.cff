@@ -1,26 +1,20 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "SpinCirc: Advanced Spin Transport Circuit Framework"
+title: "SpinCirc: Spin Transport Circuit Framework"
 version: 1.0.0
-doi: 10.5281/zenodo.spincirc-v1.0.0
 date-released: 2025-01-31
-url: "https://github.com/alaweimm90/SpinCirc"
-repository-code: "https://github.com/alaweimm90/SpinCirc"
-repository-artifact: "https://github.com/alaweimm90/SpinCirc/releases"
+url: "https://github.com/alawein/spincirc"
+repository-code: "https://github.com/alawein/spincirc"
 abstract: >-
-  SpinCirc is a comprehensive MATLAB/Python/Verilog-A framework 
-  implementing the equivalent-circuit spin-transport formalism for 
-  computational spintronics research. It features 4×4 conductance 
-  matrix formalism, time-dependent drift-diffusion solvers, and 
-  advanced magnetodynamics with LLG/LLGS integration.
+  SpinCirc is a MATLAB/Python/Verilog-A framework implementing the
+  equivalent-circuit spin-transport formalism for computational
+  spintronics research. Features 4x4 conductance matrix formalism,
+  drift-diffusion solvers, and LLG/LLGS magnetodynamics integration.
 authors:
   - family-names: "Alawein"
-    given-names: "Dr. Meshal"
-    email: "meshal@berkeley.edu"
-    affiliation: "University of California, Berkeley"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-    website: "https://malawein.com"
+    given-names: "Meshal"
+    email: "contact@meshal.ai"
 license: MIT
 keywords:
   - "spintronics"
@@ -29,9 +23,6 @@ keywords:
   - "magnetization dynamics"
   - "device modeling"
   - "LLG equation"
-  - "Berkeley"
-  - "quantum computing"
-  - "materials science"
   - "MATLAB"
   - "Python"
   - "Verilog-A"

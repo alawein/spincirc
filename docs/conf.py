@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath('../python'))
 # -- Project information -----------------------------------------------------
 
 project = 'SpinCirc'
-copyright = f'2025, Meshal Alawein, UC Berkeley'
+copyright = f'2026, Meshal Alawein'
 author = 'Meshal Alawein'
 release = '1.0.0'
 version = '1.0.0'
@@ -279,8 +279,8 @@ except:
 
 html_context = {
     'display_github': True,
-    'github_user': 'alaweimm90',
-    'github_repo': 'SpinCirc',
+    'github_user': 'alawein',
+    'github_repo': 'spincirc',
     'github_version': 'main',
     'conf_py_path': '/docs/',
     'version_info': version_info,

@@ -257,7 +257,7 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          alaweimm90/spincirc
+          alawein/spincirc
         tags: |
           type=ref,event=branch
           type=ref,event=pr

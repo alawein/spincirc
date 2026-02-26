@@ -40,7 +40,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
    ```
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/alaweimm90/SpinCirc.git
+   git remote add upstream https://github.com/alawein/spincirc.git
    ```
 4. **Set up development environment**:
    ```matlab
@@ -531,7 +531,7 @@ All contributors will be:
 
 - **GitHub Issues**: Bug reports, feature requests
 - **GitHub Discussions**: General questions, ideas
-- **Email**: meshal@berkeley.edu (for sensitive issues)
+- **Email**: contact@meshal.ai (for sensitive issues)
 
 ### Development Discussions
 
@@ -572,7 +572,7 @@ Your contributions help advance computational spintronics research worldwide. Ev
 
 ---
 
-*For questions about contributing, please contact [meshal@berkeley.edu](mailto:meshal@berkeley.edu) or open a GitHub Discussion.*
+*For questions about contributing, please contact [contact@meshal.ai](mailto:contact@meshal.ai) or open a GitHub Discussion.*
 
 <p align="center">
   <strong>Built with ❤️ at UC Berkeley</strong><br>
