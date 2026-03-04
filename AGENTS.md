@@ -52,3 +52,5 @@ magnetization dynamics, MTJs, spin valves, all-spin logic, and multiferroics.
 - Python classes: `PascalCase`
 - Verilog-A models: `snake_case.va`
 - Constants: `UPPER_SNAKE_CASE`
+
+See [CLAUDE.md](CLAUDE.md) | [SSOT.md](SSOT.md)
