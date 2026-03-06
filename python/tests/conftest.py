@@ -12,13 +12,19 @@ License: MIT
 import sys
 from unittest.mock import MagicMock
 
-# Pre-mock optional dependencies so ml_tools.__init__ can import cleanly
+# Pre-mock optional dependencies so ml_tools.__init__ can import cleanly.
+# We mock individual heavy packages (not installed in CI) and ml_tools
+# submodules that depend on them. surrogate_models is NOT mocked here
+# because its deps (xgboost, optuna) are individually mocked below.
+# NOTE: Do NOT mock torch at module level — it breaks scipy's is_torch_array check.
 for _mod in [
+    "xgboost", "optuna",
     "pymoo", "pymoo.algorithms", "pymoo.algorithms.moo",
-    "pymoo.algorithms.moo.nsga2", "pymoo.core", "pymoo.core.problem",
-    "pymoo.optimize", "pymoo.termination",
+    "pymoo.algorithms.moo.nsga2", "pymoo.algorithms.moo.nsga3",
+    "pymoo.core", "pymoo.core.problem", "pymoo.optimize",
+    "pymoo.termination", "pymoo.visualization", "pymoo.visualization.scatter",
     "ml_tools.device_optimization", "ml_tools.physics_informed_nn",
-    "ml_tools.surrogate_models", "ml_tools.uncertainty_quantification",
+    "ml_tools.uncertainty_quantification",
 ]:
     sys.modules.setdefault(_mod, MagicMock())
 
