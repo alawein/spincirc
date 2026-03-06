@@ -1,3 +1,10 @@
+---
+type: guide
+authority: canonical
+audience: [ai-agents, contributors]
+last-verified: 2026-03-03
+---
+
 # Claude AI Assistant Guide
 
 ## Repository Context
@@ -65,3 +72,6 @@ cp verilogA/models/*.va $SPECTRE_HOME/tools/spectre/etc/ahdl/
 ## Architecture
 
 Tri-language spintronic device simulation framework. MATLAB core provides numerical solvers for coupled spin-transport and magnetization dynamics equations. Python tools handle data analysis and ML-augmented parameter extraction. Verilog-A compact models enable integration with standard EDA circuit simulators for system-level spin-circuit co-design.
+
+## Governance
+See [AGENTS.md](AGENTS.md) for rules. See [SSOT.md](SSOT.md) for current state.
