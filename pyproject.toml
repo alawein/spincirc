@@ -11,3 +11,11 @@ filterwarnings = [
     "ignore::DeprecationWarning",
     "ignore::PendingDeprecationWarning",
 ]
+
+[tool.coverage.run]
+source = ["python"]
+omit = ["python/tests/*"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
