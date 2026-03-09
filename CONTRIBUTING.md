@@ -1,6 +1,6 @@
 # Contributing to SpinCirc
 
-🎉 **Thank you for your interest in contributing to SpinCirc!** 🎉
+This project follows the [alawein org contributing standards](https://github.com/alawein/alawein/blob/main/CONTRIBUTING.md). 🎉 **Thank you for your interest in contributing to SpinCirc!** 🎉
 
 SpinCirc is an open-source framework for computational spintronics research, and we welcome contributions from researchers, students, and developers worldwide. This document provides guidelines for contributing to the project.
 
