@@ -5,6 +5,8 @@ audience: [agents, contributors, maintainers]
 last-verified: 2026-03-09
 ---
 
+<!-- CUSTOM OVERRIDE: domain-specific governance | Intentional specialization for MATLAB-primary spintronic research library (EDA compatibility, Verilog-A models, multi-language support) -->
+
 # AGENTS — spincirc
 
 > Spintronic device modeling using equivalent-circuit spin-transport methods.

@@ -5,6 +5,8 @@ audience: [ai-agents, contributors]
 last-verified: 2026-03-03
 ---
 
+<!-- CUSTOM OVERRIDE: domain-specific guide | Intentional specialization for MATLAB-primary spintronic device modeling library (Verilog-A EDA models, multi-language support) -->
+
 # CLAUDE.md — spincirc
 
 ## Repository Context
