@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # SpinCirc Docker Documentation
 
 This directory contains Docker-related files and documentation for the SpinCirc computational spintronics framework.

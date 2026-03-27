@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Git Repository Shortcuts
 
 ## ✅ Installation Complete!
