@@ -105,7 +105,7 @@ pytest python/tests/ -v --cov=python
   pages={76--85},
   year={2018},
   publisher={IEEE},
-  doi={10.1109/JXCDC.2018.2848670}
+  doi={10.1109/JXCDC.2018.2876456}
 }
 ```
 
