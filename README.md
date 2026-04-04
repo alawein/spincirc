@@ -12,6 +12,8 @@ sla: none
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Verilog-A](https://img.shields.io/badge/VerilogA-IEEE1800-green.svg)](https://en.wikipedia.org/wiki/Verilog-AMS)
 
+## About
+
 Computational framework for spintronic device modeling using equivalent-circuit spin-transport methods. Based on Alawein & Fariborzi, IEEE J-XCDC 2018.
 
 ## Features
@@ -113,14 +115,7 @@ pytest python/tests/ -v --cov=python
 
 MIT License -- see [LICENSE](LICENSE).
 
-## Author
-
-**Meshal Alawein**
-- Email: [contact@meshal.ai](mailto:contact@meshal.ai)
-- GitHub: [github.com/alawein](https://github.com/alawein)
-- LinkedIn: [linkedin.com/in/alawein](https://linkedin.com/in/alawein)
-
 ## Ownership
 
 - **Maintainer:** @alawein
-- **Support:** GitHub Issues on this repository
+- **Support:** [GitHub Issues](https://github.com/alawein/spincirc/issues)
