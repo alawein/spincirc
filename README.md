@@ -100,7 +100,7 @@ pytest python/tests/ -v --cov=python
 ```bibtex
 @article{alawein2018circuit,
   title={Circuit Models for Spintronic Devices Subject to Electric and Magnetic Fields},
-  author={Alawein, Meshal and Fariborzi, Hamid},
+  author={Alawein, Meshal and Fariborzi, Hoseein},
   journal={IEEE Journal on Exploratory Solid-State Computational Devices and Circuits},
   volume={4},
   number={2},
