@@ -49,7 +49,7 @@ sphinx-copybutton>=0.4.0
 
 # Performance
 numba>=0.53.0
-cython>=0.29.0
+cython>=3.2.4
 
 # Utilities
 tqdm>=4.61.0
