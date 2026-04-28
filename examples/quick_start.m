@@ -157,7 +157,7 @@ fprintf('1. Explore validation examples in matlab/validation/\n');
 fprintf('2. Check device implementations in matlab/devices/\n');
 fprintf('3. Run comprehensive tests: runtests("matlab/tests")\n');
 fprintf('4. Read documentation at docs/index.rst\n');
-fprintf('\nFor support: https://github.com/alaweimm90/SpinCirc\n');
+fprintf('\nFor support: https://github.com/alawein/spincirc\n');
 
 %% Save results (optional)
 save_results = questdlg('Save simulation results?', 'SpinCirc', 'Yes', 'No', 'No');

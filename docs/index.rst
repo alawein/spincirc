@@ -44,7 +44,7 @@ Quick Start
 
 .. code-block:: bash
 
-   git clone https://github.com/alaweimm90/SpinCirc.git
+   git clone https://github.com/alawein/spincirc.git
    cd SpinCirc
 
 **MATLAB Setup**
@@ -258,7 +258,7 @@ If you use SpinCirc in your research, please cite:
      title={SpinCirc: Advanced Spin Transport Circuit Framework},
      author={Alawein, Meshal},
      year={2025},
-     url={https://github.com/alaweimm90/SpinCirc},
+     url={https://github.com/alawein/spincirc},
      version={1.0.0}
    }
 
@@ -266,8 +266,8 @@ Support and Community
 ---------------------
 
 - **Documentation**: https://docs.spincirc.org
-- **GitHub Issues**: https://github.com/alaweimm90/SpinCirc/issues
-- **Discussions**: https://github.com/alaweimm90/SpinCirc/discussions
+- **GitHub Issues**: https://github.com/alawein/spincirc/issues
+- **Discussions**: https://github.com/alawein/spincirc/discussions
 - **Email**: meshal@berkeley.edu
 
 License

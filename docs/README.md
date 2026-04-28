@@ -1,30 +1,23 @@
----
-type: derived
-owner: platform-engineering
-last-reviewed: 2026-03-31
-source: ../README.md
-sync: manual
-sla: none
----
+# Docs
 
-# Documentation Index — spincirc
+This lane holds SpinCirc's architecture notes, theory and API references, and
+the small docs-build surface around the mixed MATLAB, Python, and Verilog-A
+stack.
 
-Spintronics circuit simulation
+## Start here
 
-## Start Here
+- [architecture.md](architecture.md) for the MATLAB, Python, and Verilog-A
+  split.
+- [theory.md](theory.md) for the scientific background.
+- [api.md](api.md) for the exposed interfaces.
+- [deployment.md](deployment.md) and `operations/` for release and distribution
+  assumptions.
+- [troubleshooting.md](troubleshooting.md) for recurring failures.
+- [INDEX.md](INDEX.md) for the derived document map.
 
-- [README](../README.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Security Policy](../SECURITY.md)
-- [Changelog](../CHANGELOG.md)
+## Notes
 
-## Core Docs
-
-- [Architecture Overview](./architecture.md)
-- [Deployment and Release](./deployment.md)
-- [Troubleshooting](./troubleshooting.md)
-
-## Ownership
-
-- Owning team: alawein-core
-- Support: @alawein
+- `index.rst`, `getting_started.rst`, and `installation.rst` support the docs
+  build surface.
+- Keep docs explicit about which language surface or simulator a workflow
+  targets.
