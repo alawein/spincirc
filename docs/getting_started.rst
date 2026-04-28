@@ -53,7 +53,7 @@ First Steps
 
    .. code-block:: bash
 
-      git clone https://github.com/alaweimm90/SpinCirc.git
+      git clone https://github.com/alawein/spincirc.git
       cd SpinCirc
 
 2. **MATLAB Setup**
@@ -246,8 +246,8 @@ Getting Help
    - :doc:`examples/index` - Comprehensive examples
 
 **Community**
-   - GitHub Discussions: https://github.com/alaweimm90/SpinCirc/discussions
-   - Issues: https://github.com/alaweimm90/SpinCirc/issues
+   - GitHub Discussions: https://github.com/alawein/spincirc/discussions
+   - Issues: https://github.com/alawein/spincirc/issues
    - Email: meshal@berkeley.edu
 
 **Quick References**

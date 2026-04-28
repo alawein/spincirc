@@ -15,7 +15,7 @@ The fastest way to get SpinCirc running is using Docker:
 .. code-block:: bash
 
    # Clone the repository
-   git clone https://github.com/alaweimm90/SpinCirc.git
+   git clone https://github.com/alawein/spincirc.git
    cd SpinCirc
    
    # Build Docker image
@@ -74,7 +74,7 @@ SpinCirc requires MATLAB R2019b or later. Recommended version: **R2023a** or new
 
    .. code-block:: bash
 
-      git clone https://github.com/alaweimm90/SpinCirc.git
+      git clone https://github.com/alawein/spincirc.git
       cd SpinCirc
 
 2. **Add to MATLAB Path**
@@ -331,7 +331,7 @@ For contributors or advanced users who want to modify SpinCirc:
 .. code-block:: bash
 
    # Clone with full history
-   git clone --recursive https://github.com/alaweimm90/SpinCirc.git
+   git clone --recursive https://github.com/alawein/spincirc.git
    cd SpinCirc
    
    # Create development branch
@@ -399,7 +399,7 @@ Platform-Specific Instructions
       # Inside WSL2 Ubuntu
       sudo apt update
       sudo apt install python3-pip git
-      git clone https://github.com/alaweimm90/SpinCirc.git
+      git clone https://github.com/alawein/spincirc.git
       cd SpinCirc
       pip3 install -r python/requirements.txt
 
@@ -422,7 +422,7 @@ Platform-Specific Instructions
    brew install --cask matlab  # If available
    
    # Install SpinCirc
-   git clone https://github.com/alaweimm90/SpinCirc.git
+   git clone https://github.com/alawein/spincirc.git
    cd SpinCirc
    pip3 install -r python/requirements.txt
 
@@ -438,7 +438,7 @@ Platform-Specific Instructions
    sudo apt install octave octave-signal octave-statistics  # Optional
    
    # Install SpinCirc
-   git clone https://github.com/alaweimm90/SpinCirc.git
+   git clone https://github.com/alawein/spincirc.git
    cd SpinCirc
    python3 -m venv venv
    source venv/bin/activate
@@ -616,7 +616,7 @@ If you encounter installation issues:
 
 1. Check the **system requirements** and ensure compatibility
 2. Review the **troubleshooting section** for common solutions
-3. Search existing **GitHub issues**: https://github.com/alaweimm90/SpinCirc/issues
+3. Search existing **GitHub issues**: https://github.com/alawein/spincirc/issues
 4. Create a new issue with detailed error messages and system information
 5. Contact support: meshal@berkeley.edu
 
