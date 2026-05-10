@@ -32,11 +32,16 @@ SpinCirc — Spintronic device modeling using equivalent-circuit spin-transport 
 
 ```
 spincirc/
-├── src/          # Python source
+├── python/       # Python source
+├── matlab/       # MATLAB models
 ├── CLAUDE.md     # Agent config
 ├── AGENTS.md     # Governance rules
 └── SSOT.md       # This file
 ```
+
+## Notes
+
+- `pyproject.toml` contains only pytest and coverage tool config; this repo is not a distributed Python package.
 
 ## What's Next
 
