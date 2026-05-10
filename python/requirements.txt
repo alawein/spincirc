@@ -55,7 +55,7 @@ cython>=3.2.4
 tqdm>=4.61.0
 click>=8.0.0
 pyyaml>=6.0.3
-toml>=0.10.0
+toml>=0.10.2
 configparser>=5.0.0
 
 # Optional ML/AI extensions
