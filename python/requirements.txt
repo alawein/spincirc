@@ -56,7 +56,7 @@ tqdm>=4.67.3
 click>=8.1.8
 pyyaml>=6.0.3
 toml>=0.10.2
-configparser>=5.0.0
+configparser>=7.2.0
 
 # Optional ML/AI extensions
 # tensorflow>=2.6.0
