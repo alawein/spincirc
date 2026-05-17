@@ -22,7 +22,7 @@ nlopt>=2.10.0
 
 # Visualization
 seaborn>=0.13.2
-plotly>=5.0.0
+plotly>=6.7.0
 bokeh>=3.4.3
 
 # Jupyter ecosystem
