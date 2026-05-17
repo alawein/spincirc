@@ -4,7 +4,7 @@
 # Core numerical libraries
 numpy>=2.0.2
 scipy>=1.13.1
-matplotlib>=3.5.0
+matplotlib>=3.9.4
 pandas>=2.3.3
 
 # Data handling
