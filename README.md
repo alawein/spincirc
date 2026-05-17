@@ -1,5 +1,28 @@
 # SpinCirc
 
+Status:      frozen
+Category:    research
+Owner:       alawein
+Visibility:  private
+Purpose:     Spintronics circuit simulation and modeling research workspace.
+Next action: continue
+
+## Public value
+
+SpinCirc is a research-portfolio candidate if it documents the spintronic
+circuit model, expected inputs, validation examples, and relation to published
+work. Public polish should focus on reproducibility and scientific context
+rather than treating the repo as a generic code library.
+
+## Publication boundaries
+
+- Tie examples and figures to regeneration commands where possible.
+- Confirm license, citation expectations, and data provenance before public
+  promotion.
+- Keep unpublished paper drafts, private benchmark data, and machine-local
+  outputs out of public examples.
+- Mark exploratory notebooks or historical experiments as non-canonical.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2024b+-orange.svg)](https://www.mathworks.com/products/matlab.html)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
