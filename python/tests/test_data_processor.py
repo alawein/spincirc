@@ -15,7 +15,7 @@ import numpy as np
 import json
 import warnings
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -23,7 +23,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from analysis.data_processor import (
     ProcessingConfig,
     SpinCircDataProcessor,
-    load_spincirc_data,
 )
 
 

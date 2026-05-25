@@ -16,7 +16,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import grad
 import matplotlib.pyplot as plt
-from typing import Dict, List, Optional, Tuple, Callable
+from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass
 import logging
 from abc import ABC, abstractmethod

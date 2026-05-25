@@ -11,15 +11,11 @@ License: MIT
 """
 
 import numpy as np
-import scipy.optimize
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import Matern
 import optuna
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from pymoo.algorithms.moo.nsga3 import NSGA3
 from pymoo.core.problem import Problem
 from pymoo.optimize import minimize
-from pymoo.visualization.scatter import Scatter
 import logging
 from typing import Dict, List, Optional, Tuple, Callable, Any
 from dataclasses import dataclass
@@ -464,7 +460,6 @@ class DeviceOptimizer:
         elif len(objectives) == 3:
             # 3D plot
             import matplotlib.pyplot as plt
-            from mpl_toolkits.mplot3d import Axes3D
             
             fig = plt.figure(figsize=(12, 9))
             ax = fig.add_subplot(111, projection='3d')

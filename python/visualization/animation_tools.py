@@ -13,11 +13,9 @@ License: MIT
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from matplotlib.colors import LinearSegmentedColormap
 import plotly.graph_objects as go
-import plotly.express as px
 from plotly.subplots import make_subplots
-from typing import Dict, List, Optional, Tuple, Any, Callable, Union
+from typing import Dict, Optional, Any
 import logging
 from pathlib import Path
 

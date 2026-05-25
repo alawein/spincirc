@@ -14,10 +14,9 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
-import plotly.figure_factory as ff
 import ipywidgets as widgets
 from IPython.display import display
-from typing import Dict, List, Optional, Tuple, Any, Callable, Union
+from typing import Dict, List, Tuple, Any, Callable
 import logging
 
 logger = logging.getLogger(__name__)

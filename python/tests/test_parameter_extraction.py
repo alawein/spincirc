@@ -12,7 +12,6 @@ License: MIT
 
 import pytest
 import numpy as np
-from unittest.mock import patch, MagicMock
 
 from ml_tools.parameter_extraction import ExtractionConfig, ParameterExtractor
 
