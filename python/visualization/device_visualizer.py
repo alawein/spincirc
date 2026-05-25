@@ -12,12 +12,9 @@ License: MIT
 
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib.colors import LinearSegmentedColormap
 import matplotlib.patches as patches
-from matplotlib.collections import LineCollection
 import matplotlib.animation as animation
-from typing import Dict, List, Optional, Tuple, Any, Union
+from typing import Dict, List, Optional, Tuple
 import logging
 
 logger = logging.getLogger(__name__)

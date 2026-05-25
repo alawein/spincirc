@@ -15,9 +15,7 @@ License: MIT
 import pytest
 import numpy as np
 import sys
-import importlib
 from pathlib import Path
-from unittest.mock import MagicMock
 
 # conftest.py already mocks heavy deps (xgboost, optuna, torch, pymoo, etc.)
 # and keeps surrogate_models unmocked so we can import the real module.

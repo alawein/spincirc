@@ -11,22 +11,19 @@ License: MIT
 """
 
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, Matern, WhiteKernel, ConstantKernel
 from sklearn.neural_network import MLPRegressor
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import xgboost as xgb
 import optuna
-from typing import Dict, List, Optional, Tuple, Callable, Any, Union
+from typing import Dict, List, Optional, Tuple, Any, Union
 from dataclasses import dataclass, field
 import logging
-import pickle
 import joblib
-import json
-from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
