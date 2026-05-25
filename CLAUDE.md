@@ -5,11 +5,11 @@ sync: none
 sla: none
 authority: canonical
 audience: [ai-agents, contributors]
-last_updated: 2026-04-16
-last-verified: 2026-04-16
+last_updated: 2026-05-24
+last-verified: 2026-05-24
 ---
 
-# CLAUDE.md — SpinCirc
+# CLAUDE.md: SpinCirc
 
 ## Workspace identity
 
