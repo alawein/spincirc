@@ -5,7 +5,7 @@ sync: none
 sla: none
 authority: canonical
 audience: [ai-agents, contributors]
-last_updated: 2026-05-24
+last_updated: 2026-05-30
 last-verified: 2026-05-24
 ---
 
@@ -51,10 +51,28 @@ Shared voice and agent contract:
 
 ## Build and test commands
 
+Tests are split by language surface. There is no top-level `tests/` directory:
+Python tests live in `python/tests`, MATLAB tests in `matlab/tests`.
+
 ```bash
-matlab -batch "runtests('tests')"
-pytest
+# Python (pytest testpaths is pinned to python/tests in pyproject.toml)
+pytest python/tests
 black python/
 flake8 python/
 mypy python/
+
+# MATLAB (run from matlab/tests, which exposes the RunAllTests harness)
+matlab -batch "cd('matlab/tests'); RunAllTests"
 ```
+
+### Docker
+
+A `Dockerfile` and `docker-compose.yml` are present. Compose defines a
+`test-runner` service that runs the Python suite in a container:
+
+```bash
+docker compose run --rm test-runner
+```
+
+Other compose services include `spincirc`, `jupyter`, `python-dev`, `docs`, and
+`dev`. See `build-docker.sh` and the `docker/` directory for image build details.
