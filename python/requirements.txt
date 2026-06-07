@@ -17,7 +17,7 @@ scikit-image>=0.24.0
 statsmodels>=0.14.6
 
 # Optimization
-optuna>=4.8.0
+optuna>=4.9.0
 nlopt>=2.10.0
 
 # Visualization
