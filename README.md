@@ -56,6 +56,20 @@ Tie published figures to the demo scripts under `examples/` where possible.
 - Keep unpublished paper drafts, private benchmark data, and machine-local outputs
   out of public examples
 
+
+## Architecture
+
+```text
+spincirc/
+├── matlab/    # primary solvers (drift-diffusion, LLG/LLGS)
+├── python/    # analysis, visualization, ML tooling
+├── verilogA/  # compact EDA models
+├── examples/  # runnable demos
+└── docs/      # architecture, theory, API
+```
+
+Detail: [docs/architecture/topology.md](docs/architecture/topology.md) and [docs/architecture.md](docs/architecture.md).
+
 ## Docs map
 
 - [docs/README.md](docs/README.md)

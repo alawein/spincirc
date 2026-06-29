@@ -6,8 +6,8 @@ stack.
 
 ## Start here
 
-- [architecture.md](architecture.md) for the MATLAB, Python, and Verilog-A
-  split.
+- [architecture.md](architecture.md) for the MATLAB, Python, and Verilog-A split.
+- [architecture/topology.md](architecture/topology.md) for the on-disk layout and surface roles.
 - [theory.md](theory.md) for the scientific background.
 - [api.md](api.md) for the exposed interfaces.
 - [deployment.md](deployment.md) and `operations/` for release and distribution
