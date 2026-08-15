@@ -5,8 +5,8 @@ Uncertainty Quantification for Spintronic Device Models
 Comprehensive UQ including parametric uncertainty, model uncertainty,
 and sensitivity analysis using various statistical methods.
 
-Author: Meshal Alawein <meshal@berkeley.edu>
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Author: Meshal Alawein <contact@meshal.ai>
+Copyright © 2025 Meshal Alawein
 License: MIT
 """
 

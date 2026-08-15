@@ -23,8 +23,8 @@ function berkeley()
 %   ylabel('Magnetization');
 %   title('LLG Dynamics');
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     if nargin > 0 && strcmp(varargin{1}, 'reset')

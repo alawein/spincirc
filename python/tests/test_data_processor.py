@@ -6,7 +6,7 @@ transport/magnetization extraction, TMR calculation, LLG fitting,
 switching dynamics, statistical analysis, and export functionality.
 
 Author: Meshal Alawein
-Email: meshal@berkeley.edu
+Email: contact@meshal.ai
 License: MIT
 """
 

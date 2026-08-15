@@ -34,8 +34,8 @@ function results = llg_hysteresis_loop(varargin)
 %   results = llg_hysteresis_loop('Material', 'CoFeB', 'Temperature', 77);
 %   results = llg_hysteresis_loop('FieldRange', 100e-3, 'SweepRate', 1e6);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

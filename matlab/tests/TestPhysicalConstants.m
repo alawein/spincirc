@@ -4,8 +4,8 @@ classdef TestPhysicalConstants < matlab.unittest.TestCase
     % This test class validates the physical constants database including
     % fundamental constants, magnetic constants, and material properties.
     %
-    % Author: Meshal Alawein <meshal@berkeley.edu>
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Author: Meshal Alawein <contact@meshal.ai>
+    % Copyright © 2025 Meshal Alawein
     % License: MIT
     
     methods(Test)

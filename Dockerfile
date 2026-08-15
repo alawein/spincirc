@@ -4,8 +4,8 @@
 # This Dockerfile creates a containerized environment for the SpinCirc
 # computational spintronics framework with MATLAB, Python, and Verilog-A support.
 #
-# Author: Meshal Alawein <meshal@berkeley.edu>
-# Copyright © 2025 Meshal Alawein — All rights reserved.
+# Author: Meshal Alawein <contact@meshal.ai>
+# Copyright © 2025 Meshal Alawein
 # License: MIT
 
 # Stage 1: Base environment with system dependencies
@@ -378,7 +378,7 @@ COPY <<'EOF' /opt/spincirc/config/spincirc.conf
 [general]
 version = 1.0.0
 author = Meshal Alawein
-email = meshal@berkeley.edu
+email = contact@meshal.ai
 license = MIT
 description = Computational framework for spintronic device simulation
 
@@ -551,7 +551,7 @@ CMD ["help"]
 LABEL org.opencontainers.image.title="SpinCirc Framework" \
       org.opencontainers.image.description="Comprehensive computational framework for spintronic device simulation and design" \
       org.opencontainers.image.version="1.0.0" \
-      org.opencontainers.image.authors="Meshal Alawein <meshal@berkeley.edu>" \
+      org.opencontainers.image.authors="Meshal Alawein <contact@meshal.ai>" \
       org.opencontainers.image.url="https://github.com/meshalawy/SpinCirc" \
       org.opencontainers.image.source="https://github.com/meshalawy/SpinCirc" \
       org.opencontainers.image.documentation="https://github.com/meshalawy/SpinCirc/blob/main/README.md" \

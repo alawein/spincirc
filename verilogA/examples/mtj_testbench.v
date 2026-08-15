@@ -9,7 +9,7 @@
  * - Temperature effects
  * - Process variation analysis
  * 
- * @author Meshal Alawein <meshal@berkeley.edu>
+ * @author Meshal Alawein <contact@meshal.ai>
  * @copyright 2025, University of California Berkeley
  * @license MIT License
  */

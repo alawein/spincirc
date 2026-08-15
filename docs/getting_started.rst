@@ -248,7 +248,7 @@ Getting Help
 **Community**
    - GitHub Discussions: https://github.com/alawein/spincirc/discussions
    - Issues: https://github.com/alawein/spincirc/issues
-   - Email: meshal@berkeley.edu
+   - Email: contact@meshal.ai
 
 **Quick References**
    - :doc:`glossary` - Key terms and definitions

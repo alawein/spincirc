@@ -13,8 +13,8 @@ classdef ConductanceMatrix < handle
 %   - Rotation matrices for arbitrary magnetization directions
 %   - Frequency-domain AC analysis capabilities
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     properties (Constant)

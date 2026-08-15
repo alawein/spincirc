@@ -268,7 +268,7 @@ Support and Community
 - **Documentation**: https://docs.spincirc.org
 - **GitHub Issues**: https://github.com/alawein/spincirc/issues
 - **Discussions**: https://github.com/alawein/spincirc/discussions
-- **Email**: meshal@berkeley.edu
+- **Email**: contact@meshal.ai
 
 License
 -------

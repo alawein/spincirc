@@ -36,8 +36,8 @@ function varargout = error_handling(operation, varargin)
 %   % Create logger
 %   logger = error_handling('create_logger', 'simulation.log')
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     if nargin < 1
