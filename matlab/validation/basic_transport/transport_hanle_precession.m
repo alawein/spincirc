@@ -28,8 +28,8 @@ function results = transport_hanle_precession(varargin)
 %   results = transport_hanle_precession('Material', 'Cu', 'Temperature', 77);
 %   results = transport_hanle_precession('FieldRange', [-100e-3, 100e-3], 'PlotResults', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

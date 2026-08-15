@@ -618,7 +618,7 @@ If you encounter installation issues:
 2. Review the **troubleshooting section** for common solutions
 3. Search existing **GitHub issues**: https://github.com/alawein/spincirc/issues
 4. Create a new issue with detailed error messages and system information
-5. Contact support: meshal@berkeley.edu
+5. Contact support: contact@meshal.ai
 
 Next Steps
 ----------

@@ -30,8 +30,8 @@ function results = transport_interface_resistance(varargin)
 %   results = transport_interface_resistance('InterfaceType', 'tunnel', 'Barrier', 'MgO');
 %   results = transport_interface_resistance('FerromagnetMaterial', 'CoFeB', 'Temperature', 77);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

@@ -33,8 +33,8 @@ function results = reproduce_fig10_multistate(varargin)
 % Reference:
 %   [Insert appropriate literature reference for Figure 10]
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

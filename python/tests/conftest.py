@@ -5,7 +5,7 @@ Provides synthetic IV curves, transport data, and common test
 infrastructure for ML-based parameter extraction testing.
 
 Author: Meshal Alawein
-Email: meshal@berkeley.edu
+Email: contact@meshal.ai
 License: MIT
 """
 

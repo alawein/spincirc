@@ -30,8 +30,8 @@ function [t, y, info] = adaptive_ode_solver(ode_func, tspan, y0, varargin)
 %   y    - Solution matrix (each column is solution at corresponding time)
 %   info - Information structure with solver statistics
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

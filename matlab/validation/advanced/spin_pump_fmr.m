@@ -35,8 +35,8 @@ function results = spin_pump_fmr(varargin)
 %   results = spin_pump_fmr('Ferromagnet', 'Permalloy', 'HeavyMetal', 'Pt');
 %   results = spin_pump_fmr('FrequencyRange', [5e9, 25e9], 'FieldSweep', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

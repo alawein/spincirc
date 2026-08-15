@@ -31,8 +31,8 @@ function results = llgs_current_switching(varargin)
 %   results = llgs_current_switching('Material', 'CoFeB', 'Temperature', 350);
 %   results = llgs_current_switching('CurrentRange', [1e11, 5e11], 'PlotResults', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

@@ -8,7 +8,7 @@ evaluation, prediction, feature importance, and save/load.
 Since xgboost is not installed in CI, we mock it and skip XGBoost-specific tests.
 
 Author: Meshal Alawein
-Email: meshal@berkeley.edu
+Email: contact@meshal.ai
 License: MIT
 """
 

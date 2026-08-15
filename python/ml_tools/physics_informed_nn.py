@@ -5,8 +5,8 @@ Physics-Informed Neural Networks for spin transport and LLG dynamics.
 Embeds spin diffusion and magnetization physics as loss function constraints.
 Solves coupled transport-dynamics problems without explicit discretization.
 
-Author: Meshal Alawein <meshal@berkeley.edu>
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Author: Meshal Alawein <contact@meshal.ai>
+Copyright © 2025 Meshal Alawein
 License: MIT
 """
 

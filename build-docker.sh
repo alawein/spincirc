@@ -4,8 +4,8 @@
 # This script provides a simple interface to build the SpinCirc Docker image
 # with common configurations.
 #
-# Author: Meshal Alawein <meshal@berkeley.edu>
-# Copyright © 2025 Meshal Alawein — All rights reserved.
+# Author: Meshal Alawein <contact@meshal.ai>
+# Copyright © 2025 Meshal Alawein
 # License: MIT
 
 set -e

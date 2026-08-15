@@ -4,8 +4,8 @@ classdef TestUnitConversions < matlab.unittest.TestCase
     % This test class validates the unit conversion functionality including
     % magnetic, electrical, and dimensional unit conversions.
     %
-    % Author: Meshal Alawein <meshal@berkeley.edu>
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Author: Meshal Alawein <contact@meshal.ai>
+    % Copyright © 2025 Meshal Alawein
     % License: MIT
     
     methods(Test)

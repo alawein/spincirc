@@ -21,8 +21,8 @@ classdef SpinTransportSolver < handle
 %   solver.setMagnetization(m_vec);
 %   [V, I_s] = solver.solve();
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     properties (Access = public)

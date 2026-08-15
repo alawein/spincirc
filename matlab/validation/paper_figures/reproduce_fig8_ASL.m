@@ -39,8 +39,8 @@ function results = reproduce_fig8_ASL(varargin)
 %   results = reproduce_fig8_ASL('PlotComparison', true, 'SaveFigures', true);
 %   results = reproduce_fig8_ASL('Verbose', true, 'IncludeVariations', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments
