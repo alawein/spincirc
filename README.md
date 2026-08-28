@@ -1,61 +1,53 @@
 # SpinCirc
 
 Status:      frozen
-Category:    research
+Category:    lab
 Owner:       alawein
-Visibility:  private
+Visibility:  public
 Purpose:     Spintronics circuit simulation and modeling research workspace.
 Next action: continue
 
 ## Abstract
 
-SpinCirc models spintronic devices with equivalent-circuit spin-transport methods.
-The framework couples drift-diffusion transport, magnetization dynamics (LLG/LLGS),
-and EDA-ready compact models for MTJs, spin valves, all-spin logic, and multiferroic
-devices. Work is grounded in Alawein and Fariborzi, IEEE J-XCDC 2018.
+SpinCirc models spintronic devices with equivalent-circuit spin-transport methods, for circuit designers and device researchers who need compact models for circuit simulators rather than full micromagnetic simulation. `matlab/` holds drift-diffusion and LLG/LLGS solvers plus device models for spin valves, all-spin logic, and multiferroics; `python/` holds analysis, visualization, and ML parameter-extraction tools; `verilogA/models/` holds Verilog-A compact models (magnetic tunnel junction, four-terminal spin transport) for circuit simulators, work grounded in Alawein and Fariborzi, IEEE J-XCDC 2018. It does not replace full micromagnetic solvers (OOMMF, mumax3) for spatially resolved magnetization simulation.
 
 ## Status
 
 - Lifecycle: frozen
-- Verification date: 2026-06-29
+- Verification date: 2026-08-28
 - Scope: MATLAB core solvers, Python analysis tools, Verilog-A compact models
 
 ## Runtime requirements
 
 - MATLAB R2024b+ with Signal Processing and Optimization toolboxes (`matlab/`)
-- Python 3.9+ with `pip install -r python/requirements.txt && pip install -e .`
+- Python 3.9+ (dependencies pinned in `python/requirements.txt`; see Reproducibility)
 - Verilog-A simulator (Spectre or equivalent) for `verilogA/models/`
 - Docker optional via `docker-compose.yml` for containerized runs
 
 ## Reproducibility
 
-MATLAB:
+Python:
+
+```bash
+python -m pip install -r python/requirements.txt
+python -m pytest python/tests -q
+```
+
+MATLAB: requires MATLAB R2024b+ with Signal Processing and Optimization toolboxes;
+not run for this README.
 
 ```matlab
 addpath(genpath('matlab'));
 runtests('matlab/tests');
 ```
 
-Python:
-
-```bash
-python -m venv spincirc-env
-source spincirc-env/bin/activate
-pip install -r python/requirements.txt
-pip install -e .
-pytest python/tests/ -v --cov=python
-```
-
 Copy Verilog-A models to your simulator model directory before circuit-level runs.
-Tie published figures to the demo scripts under `examples/` where possible.
 
 ## Datasets
 
 - Material properties live in the repo material database modules (no external download required for bundled examples)
-- Hanle and device benchmarks reference published experimental values cited in docs
 - Keep unpublished paper drafts, private benchmark data, and machine-local outputs
   out of public examples
-
 
 ## Architecture
 
