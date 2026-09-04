@@ -9,7 +9,7 @@ pandas>=2.3.3
 
 # Data handling
 h5py>=3.14.0
-netCDF4>=1.7.2
+netCDF4>=1.7.4
 
 # Scientific analysis
 scikit-learn>=1.6.1
