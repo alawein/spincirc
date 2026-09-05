@@ -21,7 +21,7 @@ from pathlib import Path
 # and keeps surrogate_models unmocked so we can import the real module.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from ml_tools.surrogate_models import SurrogateConfig, SurrogateModelBuilder
+from spincirc.ml_tools.surrogate_models import SurrogateConfig, SurrogateModelBuilder
 
 
 # ── Fixtures ──────────────────────────────────────────────────────────

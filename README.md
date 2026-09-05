@@ -20,7 +20,7 @@ SpinCirc models spintronic devices with equivalent-circuit spin-transport method
 ## Runtime requirements
 
 - MATLAB R2024b+ with Signal Processing and Optimization toolboxes (`matlab/`)
-- Python 3.9+ (dependencies pinned in `python/requirements.txt`; see Reproducibility)
+- Python 3.9+ (minimum-version dependencies; see `requirements/`; see Reproducibility)
 - Verilog-A simulator (Spectre or equivalent) for `verilogA/models/`
 - Docker optional via `docker-compose.yml` for containerized runs
 
@@ -67,3 +67,25 @@ Detail: [docs/architecture/topology.md](docs/architecture/topology.md) and [docs
 - [docs/README.md](docs/README.md)
 - [SSOT.md](SSOT.md)
 - [LESSONS.md](LESSONS.md)
+
+
+## Python package and verification status
+
+The installable Python package uses the ``spincirc`` namespace. Install its
+runtime tools with ``pip install .``; use ``pip install .[test]`` or
+``pip install .[docs]`` for the test or documentation toolchains. Dependency
+versions are minimum requirements, not lockfile pins.
+
+``spincirc-process`` processes a MATLAB ``.mat`` result file; run
+``spincirc-process --help`` for its command-line interface.
+
+MATLAB sources and Verilog-A models are experimental and unverified in this
+repository: no executable MATLAB/Octave or Verilog-A simulator evidence is
+currently provided by CI. They are not release-validated interfaces.
+
+## Citation
+
+If you use SpinCirc, see ``CITATION.cff``. The scholarly reference is
+[Alawein and Fariborzi (2018)](https://doi.org/10.1109/JXCDC.2018.2876456).
+The page range is deliberately omitted from repository metadata because it has
+not been confirmed against the publisher record.

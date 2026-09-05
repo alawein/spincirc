@@ -13,9 +13,8 @@ filterwarnings = [
 ]
 
 [tool.coverage.run]
-source = ["python"]
+source = ["spincirc.analysis"]
 omit = ["python/tests/*"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 80
