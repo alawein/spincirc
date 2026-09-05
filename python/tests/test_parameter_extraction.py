@@ -6,14 +6,14 @@ parameter space definition, training data handling, IV feature
 extraction, and cross-validation.
 
 Author: Meshal Alawein
-Email: meshal@berkeley.edu
+Email: contact@meshal.ai
 License: MIT
 """
 
 import pytest
 import numpy as np
 
-from ml_tools.parameter_extraction import ExtractionConfig, ParameterExtractor
+from spincirc.ml_tools.parameter_extraction import ExtractionConfig, ParameterExtractor
 
 
 class TestExtractionConfig:

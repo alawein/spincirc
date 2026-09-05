@@ -1,0 +1,5 @@
+# Runtime requirements for the supported Python analysis tools.
+numpy>=2.2.6
+scipy>=1.13.1
+pandas>=2.3.3
+h5py>=3.16.0

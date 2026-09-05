@@ -16,8 +16,8 @@ classdef TestSpinTransport < matlab.unittest.TestCase
 %   runtests('TestSpinTransport')  % Run all tests
 %   result = run(TestSpinTransport)  % Programmatic execution
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     properties (TestParameter)

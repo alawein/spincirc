@@ -29,8 +29,8 @@ function results = transport_1D_diffusion(varargin)
 %   results = transport_1D_diffusion('Length', 2e-6, 'Material', 'Cu');
 %   results = transport_1D_diffusion('PlotResults', true, 'Verbose', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "SpinCirc: Spin Transport Circuit Framework"
 version: 1.0.0
-date-released: 2025-01-31
+# No repository release or tag exists; this is the package metadata version.
 url: "https://github.com/alawein/spincirc"
 repository-code: "https://github.com/alawein/spincirc"
 abstract: >-
@@ -32,29 +32,25 @@ references:
       - family-names: "Alawein"
         given-names: "Meshal"
       - family-names: "Fariborzi"
-        given-names: "Hamid"
+        given-names: "Hossein"
     title: "Circuit Models for Spintronic Devices Subject to Electric and Magnetic Fields"
     journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
     volume: 4
     issue: 2
-    start: 76
-    end: 85
     year: 2018
     publisher: "IEEE"
-    doi: 10.1109/JXCDC.2018.2848670
+    doi: 10.1109/JXCDC.2018.2876456
 preferred-citation:
   type: article
   authors:
     - family-names: "Alawein"
       given-names: "Meshal"
     - family-names: "Fariborzi"
-      given-names: "Hamid"
+      given-names: "Hossein"
   title: "Circuit Models for Spintronic Devices Subject to Electric and Magnetic Fields"
   journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
   volume: 4
   issue: 2
-  start: 76
-  end: 85
   year: 2018
   publisher: "IEEE"
-  doi: 10.1109/JXCDC.2018.2848670
+  doi: 10.1109/JXCDC.2018.2876456

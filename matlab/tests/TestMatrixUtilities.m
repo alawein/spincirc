@@ -4,8 +4,8 @@ classdef TestMatrixUtilities < matlab.unittest.TestCase
     % This test class validates matrix operations including Pauli matrices,
     % rotation matrices, tensor products, and specialized operations.
     %
-    % Author: Meshal Alawein <meshal@berkeley.edu>
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Author: Meshal Alawein <contact@meshal.ai>
+    % Copyright © 2025 Meshal Alawein
     % License: MIT
     
     methods(Test)

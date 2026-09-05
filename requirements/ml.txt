@@ -1,0 +1,9 @@
+scikit-learn>=1.6.1
+scikit-image>=0.24.0
+statsmodels>=0.14.6
+optuna>=4.9.0
+nlopt>=2.10.0
+matplotlib>=3.9.4
+seaborn>=0.13.2
+plotly>=6.8.0
+bokeh>=3.4.3

@@ -22,8 +22,8 @@ function varargout = physical_constants(varargin)
 %   [h, hbar] = physical_constants('h', 'hbar')    % Planck constants
 %   all_constants = physical_constants('all')       % All constants
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     if nargin == 0

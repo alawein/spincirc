@@ -36,8 +36,8 @@ function results = sot_device_characterization(varargin)
 %   results = sot_device_characterization('HeavyMetal', 'Pt', 'Ferromagnet', 'CoFeB');
 %   results = sot_device_characterization('Temperature', 77, 'OptimizeEfficiency', true);
 %
-% Author: Meshal Alawein <meshal@berkeley.edu>
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein <contact@meshal.ai>
+% Copyright © 2025 Meshal Alawein
 % License: MIT
 
     % Parse input arguments

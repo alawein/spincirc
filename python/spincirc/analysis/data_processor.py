@@ -11,8 +11,8 @@ Features:
 - Data validation and quality assessment
 - Export to various formats (CSV, HDF5, JSON)
 
-Author: Meshal Alawein <meshal@berkeley.edu>
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Author: Meshal Alawein <contact@meshal.ai>
+Copyright © 2025 Meshal Alawein
 License: MIT
 """
 
@@ -562,8 +562,8 @@ def analyze_transport_sweep(filepath: Union[str, Path],
         'statistics': {k: processor.statistical_analysis(v, k) for k, v in transport_data.items()}
     }
 
-if __name__ == "__main__":
-    # Example usage
+def main() -> None:
+    """Run the SpinCirc MATLAB-result processing command."""
     import argparse
     
     parser = argparse.ArgumentParser(description="Process SpinCirc simulation data")
@@ -590,3 +590,7 @@ if __name__ == "__main__":
         print(f"Data exported to {args.output} in {args.format} format")
     
     print("Data processing completed successfully!")
+
+
+if __name__ == "__main__":
+    main()
