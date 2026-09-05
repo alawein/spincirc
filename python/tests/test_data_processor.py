@@ -20,7 +20,7 @@ from unittest.mock import patch
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from analysis.data_processor import (
+from spincirc.analysis.data_processor import (
     ProcessingConfig,
     SpinCircDataProcessor,
 )
@@ -385,7 +385,7 @@ class TestLoadMatlabData:
         with pytest.raises(FileNotFoundError):
             processor.load_matlab_data("/nonexistent/path.mat")
 
-    @patch("analysis.data_processor.scipy.io.loadmat")
+    @patch("spincirc.analysis.data_processor.scipy.io.loadmat")
     def test_successful_load(self, mock_loadmat, processor, tmp_path):
         """Should load .mat file and strip metadata keys."""
         mock_loadmat.return_value = {
@@ -400,7 +400,7 @@ class TestLoadMatlabData:
         assert "voltage" in data
         assert "__header__" not in data
 
-    @patch("analysis.data_processor.scipy.io.loadmat")
+    @patch("spincirc.analysis.data_processor.scipy.io.loadmat")
     def test_metadata_extraction(self, mock_loadmat, processor, tmp_path):
         mock_loadmat.return_value = {
             "__header__": b"MATLAB",

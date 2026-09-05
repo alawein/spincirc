@@ -1,95 +1,42 @@
-#!/usr/bin/env python3
-"""
-SpinCirc Setup Configuration
-Professional setup script for SpinCirc Python components
-"""
+"""Build configuration for the SpinCirc Python package."""
+from pathlib import Path
+from setuptools import find_packages, setup
 
-from setuptools import setup, find_packages
-import os
+ROOT = Path(__file__).parent
 
-# Read README file
-def read_readme():
-    with open("README.md", "r", encoding="utf-8") as fh:
-        return fh.read()
 
-# Read requirements
-def read_requirements():
-    with open("python/requirements.txt", "r", encoding="utf-8") as fh:
-        return [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+def read_requirements(name: str) -> list[str]:
+    return [
+        line.strip()
+        for line in (ROOT / "requirements" / name).read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.startswith("#")
+    ]
 
-# Package metadata
+
 setup(
     name="spincirc",
     version="1.0.0",
     author="Meshal Alawein",
     author_email="contact@meshal.ai",
-    description="Advanced Spin Transport Circuit Framework for Computational Spintronics",
-    long_description=read_readme(),
+    description="Python analysis tools for SpinCirc simulation results",
+    long_description=(ROOT / "README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
     url="https://github.com/alawein/spincirc",
-    project_urls={
-        "Repository": "https://github.com/alawein/spincirc",
-        "Bug Tracker": "https://github.com/alawein/spincirc/issues",
-    },
-    packages=find_packages(where="python"),
+    project_urls={"Repository": "https://github.com/alawein/spincirc", "Issues": "https://github.com/alawein/spincirc/issues"},
+    packages=find_packages(where="python", exclude=("tests", "tests.*")),
     package_dir={"": "python"},
+    python_requires=">=3.9",
+    install_requires=read_requirements("runtime.txt"),
+    extras_require={"test": read_requirements("test.txt"), "docs": read_requirements("docs.txt"), "ml": read_requirements("ml.txt")},
+    entry_points={"console_scripts": ["spincirc-process=spincirc.analysis.data_processor:main"]},
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
-        "Programming Language :: Python :: 3.12",
         "Topic :: Scientific/Engineering :: Physics",
-        "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-    ],
-    python_requires=">=3.9",
-    install_requires=read_requirements(),
-    extras_require={
-        "dev": [
-            "pytest>=6.2.0",
-            "pytest-cov>=2.12.0",
-            "black>=21.6.0",
-            "flake8>=3.9.0",
-            "mypy>=0.910",
-            "pre-commit>=2.13.0",
-        ],
-        "docs": [
-            "sphinx>=4.0.0",
-            "sphinx-rtd-theme>=0.5.0",
-            "myst-parser>=0.15.0",
-        ],
-        "ml": [
-            "tensorflow>=2.6.0",
-            "torch>=1.9.0",
-            "scikit-learn>=1.0.0",
-        ],
-    },
-    entry_points={
-        "console_scripts": [
-            "spincirc-process=analysis.data_processor:main",
-        ],
-    },
-    include_package_data=True,
-    package_data={
-        "": ["*.txt", "*.md", "*.yml", "*.yaml"],
-    },
-    keywords=[
-        "spintronics",
-        "computational physics",
-        "spin transport",
-        "magnetization dynamics",
-        "device modeling",
-        "LLG equation",
-        "Berkeley",
-        "quantum computing",
-        "materials science",
     ],
     license="MIT",
-    platforms=["any"],
     zip_safe=False,
 )
